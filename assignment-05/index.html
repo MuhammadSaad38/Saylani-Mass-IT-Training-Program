@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+            <img class="p1" src="/assignment-05/01image.png" alt="img_error" width="150">
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#summary">Summary</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to My Portfolio</h2>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Muhammad Saad, a JavaScript Developer. Here is a bit about me...</p>
+        <p>Personal Information:</p>
+        <ul>
+            <li>Name: Muhammad Saad</li>
+            <li>Email: saadmalik8596@gmail.com</li>
+            <li>Phone: +923110175206</li>
+            <li>Address: House no P-836 Streat no 9, Khalidabad, Faisalabad</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here is an audio summary of my portfolio:</p>
+        <audio controls>
+            <source src="portfolio-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <section id="summary">
+        <h2>Summary</h2>
+        <p>Watch my introduction video:</p>
+        <video controls width="560" >
+            <source src="intro-video.mp4" type="video/mp4"  >
+            Your browser does not support the video tag.
+        </video>
+        <p>Or watch this YouTube video:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VspLGLXO4AE?si=oL2clX2l4Yw4WG_r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Muhammad Saad. All rights reserved.</p>
+    </footer>
+</body>
+</html>
