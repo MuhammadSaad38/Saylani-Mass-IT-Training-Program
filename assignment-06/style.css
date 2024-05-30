@@ -1,4 +1,14 @@
-h1{
-   font-style: normal;
-    
+#a{
+   font-family: 'New York', serif;
+   font-size: 54px;
+   font-weight: 700;
+   line-height: 54px;
+   text-align: center;
+}
+#b{
+   font-family: 'SF Mono', monospace;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 34px;
+   text-align: center;
 }
