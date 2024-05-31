@@ -1,14 +1,62 @@
-#a{
-   font-family: 'New York', serif;
-   font-size: 54px;
-   font-weight: 700;
-   line-height: 54px;
-   text-align: center;
+#a {
+  font-family: "New York", serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: center;
 }
-#b{
-   font-family: 'SF Mono', monospace;
-   font-size: 20px;
-   font-weight: 400;
-   line-height: 34px;
-   text-align: center;
+#b {
+  font-family: "SF Mono", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: center;
+}
+
+hr {
+  width: 640px;
+  height: 0px;
+  top: 1432px;
+  left: 400px;
+  gap: 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  border-color: rgba(0, 0, 0, 1);
+  border-radius: 2px;
+}
+
+#saad {
+   position: absolute;
+   left: 430px;
+}
+#c {
+  position: absolute;
+  left: 495px;
+  top: 1415px;
+  font-family: 'SF Pro Text';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.09px;
+  letter-spacing: 0.05em;
+  text-align: left;
+}
+#d {
+  font-family: 'SF Pro Text';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.09px;
+  text-align: left;
+  position: absolute;
+  left: 495px;
+  top: 1435px;
+}
+#e{
+   position: absolute;
+   left: 900px;
+   top: 1435px;
+}
+#f{
+   position: absolute;
+   left: 430px;
+   margin-top: 50px;
 }
