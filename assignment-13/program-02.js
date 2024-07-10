@@ -34,3 +34,40 @@ if (radius > 0) {
 } else {
     console.log("Please enter a valid positive number for the radius.");
 }
+
+
+//----------------------------------Self Doing----------------------------------------------
+// // 2.Write a js program to find diameter, circumference and area of circle using functions.
+
+// function findDiameter(r){
+//     var d = 2 * r;
+//     console.log(`Diameter of Circle is ${d} cm.`);
+// }
+// function findCircumference(r,pi) {
+//     var C = 2 * pi * r;
+//     console.log(`Circumference of Circle is ${C} cm.`);
+// }
+// function findArea(r,pi) {
+//     var A = pi * r ** 2;
+//     console.log(`Area of Circle is ${A} cm².`);
+// }
+// var r = 25;
+// var pi = 3.14159;
+// var askUser = 3;
+// if (askUser==1) {
+//     findDiameter(r);
+// } else if (askUser==2) {
+//     findCircumference(r, pi);
+// }else if (askUser==3) {
+//     findArea(r, pi);
+// }else{
+//     console.log("You enter a wrong number.");
+// }
+
+
+
+
+
+
+
+
