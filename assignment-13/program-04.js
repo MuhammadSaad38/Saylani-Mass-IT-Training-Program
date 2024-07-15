@@ -24,8 +24,21 @@
 
 
 
+// #-----------------------Self doing---------------------------------
+function findEvenOrOdd(number) {
+    if (number%2==0 && number>0){
+        return `Number is Even: ${number}.`;
+    }else if (number%2!=0 && number>0){
+        return `Number is Odd: ${number}.`;
+    }else{
+        return "Number should be greater than zero."
+    }
+}
 
 
+var number = -10;
+var evenAndOdd = findEvenOrOdd(number);
+console.log(evenAndOdd);
 
 
 
